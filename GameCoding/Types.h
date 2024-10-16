@@ -93,7 +93,7 @@ struct Vector
 		return x * other.x + y * other.y;
 	}
 
-	float Creoss(Vector other)
+	float Cross(Vector other)
 	{
 		return x * other.y - y * other.x;
 	}
